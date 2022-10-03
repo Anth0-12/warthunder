@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu {
+ border-radius: 15px;
+}
+
+.col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inscription {
+    height: 80%;
+    width: 80%;
+    background-color: rgba(179, 0, 0, 0.671);
+    color: white;
+    border: 3px solid rgba(171, 0, 0, 0.855);
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 120%;
+}
+
+.lien:focus,.lien:active{
+    outline: 0 !important;
+    box-shadow: none !important;
+    
+  }
+
+  .btn {
+    color: rgb(190, 190, 190) !important;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .dropdown-item {
+    font-family: 'Kanit', sans-serif;
+    font-size: 100%;
+  }
+
+#video {
+    height: 700px;
+    position: static;
+    bottom: 100px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.481);
+    position: relative;
+    bottom: 100px;
+}
+
+.wt {
+    height: 100%;
+    width: 100%;
+
+}
+
+#bg-video {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.downlaod {
+    height: 80%;
+    width: 80%;
+    background-color: rgb(54, 54, 54);
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 120%;
+    position: relative;
+}
+
+.downlaod:hover {
+    background-color: rgb(177, 0, 0);
+}
+
+.telechargement {
+    color: white;
+    text-decoration: none;
+}
+
+.telechargement:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.section-deux {
+    background-color: rgb(27, 27, 27);
+    height: 400px;
+    position: static !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caroussel {
+    height: 275px;
+}
+
+    .caroussel:hover {
+        border: 2px solid rgb(100, 100, 100);
+    }
+
+
+#carouselExampleIndicators {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+        .un {
+            background-image: url("../img/leclerc.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+
+        .deux {
+            background-image: url("../img/t54.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+
+        .trois {
+            background-image: url("../img/tiger.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+
+
+.tanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 275px;
+    gap: 10px;
+}
+
+.store {
+    height: 75%;
+    width: 80%;
+    border: 2px solid #d2b200;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.store:hover {
+    box-shadow: 1px 1px 10px #FFD700;
+    transition: 0.3s;
+}
+
+.code {
+    height: 25%;
+    width: 80%;
+    
+}
+
+.promo {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid rgb(100, 100, 100);
+    font-family: 'Kanit', sans-serif;
+    font-size: 120%;
+    color: rgb(100, 100, 100);
+    transition: 0.3s;
+}
+
+.promo:hover {
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+
+
+
+                                                /* page formulaire */
+
+#formulaire {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(72, 72, 72);
+}
+
+                                                form.form-example {
+                                                    display: table;
+                                                }
+                                                
+                                                div.form-example {
+                                                    display: table-row;
+                                                }
+                                                
+                                                label, input {
+                                                    display: table-cell;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                label {
+                                                    padding-right: 10px;
+                                                }
+
+
+                                                /* fin page formulaire */
